@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public override bool Equals(object other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (!(other is Ball ball)) return false;
+        return ball.name.Equals(gameObject.name);
     }
 }

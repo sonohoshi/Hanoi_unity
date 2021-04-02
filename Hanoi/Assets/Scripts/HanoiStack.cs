@@ -39,6 +39,8 @@ public class HanoiStack : MonoBehaviour
     {
         if (!(other is HanoiStack stack)) return false;
 
+        if (this.stack.Count != stack.stack.Count) return false;
+        
         bool isEqual = true;
         for (int i = 0; i < this.stack.Count; i++)
         {

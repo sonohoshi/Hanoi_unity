@@ -5,8 +5,7 @@ using UnityEngine;
 public class Hanoi : MonoBehaviour
 {
     public HanoiStack[] stacks = new HanoiStack[3];
-    
-    
+
     // Start is called before the first frame update
     void Start()
     {
