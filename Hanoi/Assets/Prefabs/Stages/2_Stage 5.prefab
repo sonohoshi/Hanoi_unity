@@ -711,15 +711,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6285620410640358685, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
       propertyPath: m_Name
-      value: ball1
+      value: ball4
       objectReference: {fileID: 0}
     - target: {fileID: 6285620410640358686, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c2950ecaacb2ed4c84a1f793d29cdae, type: 3}
+    - target: {fileID: 6285620410640358686, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
       propertyPath: m_Color.b
-      value: 0.6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6285620410640358686, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
       propertyPath: m_Color.g
-      value: 0.6
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6285620410640358686, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6285620410640358687, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
       propertyPath: m_RootOrder
@@ -810,6 +818,10 @@ PrefabInstance:
       propertyPath: stack.Array.data[0]
       value: 
       objectReference: {fileID: 4395505501665577381}
+    - target: {fileID: 8920077813132343445, guid: edae8c6eb03056446a4a656713db2452, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.02
+      objectReference: {fileID: 0}
     - target: {fileID: 8920077813645860652, guid: edae8c6eb03056446a4a656713db2452, type: 3}
       propertyPath: stack.Array.size
       value: 1
@@ -818,6 +830,10 @@ PrefabInstance:
       propertyPath: stack.Array.data[0]
       value: 
       objectReference: {fileID: 4468852971413624878}
+    - target: {fileID: 8920077813645860653, guid: edae8c6eb03056446a4a656713db2452, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.02
+      objectReference: {fileID: 0}
     - target: {fileID: 8920077813889037572, guid: edae8c6eb03056446a4a656713db2452, type: 3}
       propertyPath: m_Name
       value: Hanoi
@@ -953,15 +969,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6285620410640358685, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
       propertyPath: m_Name
-      value: ball1
+      value: ball4
       objectReference: {fileID: 0}
     - target: {fileID: 6285620410640358686, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c2950ecaacb2ed4c84a1f793d29cdae, type: 3}
+    - target: {fileID: 6285620410640358686, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
       propertyPath: m_Color.b
-      value: 0.5981132
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6285620410640358686, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
       propertyPath: m_Color.g
-      value: 0.5981132
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6285620410640358686, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
       propertyPath: m_Color.r
@@ -981,7 +1001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6285620410640358687, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -583.74
+      value: -583.1016
       objectReference: {fileID: 0}
     - target: {fileID: 6285620410640358687, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1062,7 +1082,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6179066899396018627, guid: 7743ab6d600c75a42a5446356faeed0e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -583.73
+      value: -583.0916
       objectReference: {fileID: 0}
     - target: {fileID: 6179066899396018627, guid: 7743ab6d600c75a42a5446356faeed0e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1177,9 +1197,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 189442908853400977, guid: 56ee4be9cca54af45a3fbf7032c40ee1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c2950ecaacb2ed4c84a1f793d29cdae, type: 3}
     - target: {fileID: 189442908853400978, guid: 56ee4be9cca54af45a3fbf7032c40ee1, type: 3}
       propertyPath: m_Name
-      value: ball2
+      value: ball4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56ee4be9cca54af45a3fbf7032c40ee1, type: 3}
@@ -1230,6 +1254,10 @@ PrefabInstance:
       propertyPath: stack.Array.data[2]
       value: 
       objectReference: {fileID: 4468852971885681347}
+    - target: {fileID: 8920077813132343445, guid: edae8c6eb03056446a4a656713db2452, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.96
+      objectReference: {fileID: 0}
     - target: {fileID: 8920077813645860652, guid: edae8c6eb03056446a4a656713db2452, type: 3}
       propertyPath: stack.Array.size
       value: 0
@@ -1237,6 +1265,10 @@ PrefabInstance:
     - target: {fileID: 8920077813645860652, guid: edae8c6eb03056446a4a656713db2452, type: 3}
       propertyPath: stack.Array.data[0]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8920077813645860653, guid: edae8c6eb03056446a4a656713db2452, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.97
       objectReference: {fileID: 0}
     - target: {fileID: 8920077813889037572, guid: edae8c6eb03056446a4a656713db2452, type: 3}
       propertyPath: m_Name
@@ -1397,7 +1429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6285620410640358687, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -583.7262
+      value: -583.0878
       objectReference: {fileID: 0}
     - target: {fileID: 6285620410640358687, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1470,7 +1502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6285620410640358687, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.849173
+      value: 5.0658655
       objectReference: {fileID: 0}
     - target: {fileID: 6285620410640358687, guid: 746899480a8eb6342baf2b19484ca509, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1543,7 +1575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6179066899396018627, guid: 7743ab6d600c75a42a5446356faeed0e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.759172
+      value: 11.059174
       objectReference: {fileID: 0}
     - target: {fileID: 6179066899396018627, guid: 7743ab6d600c75a42a5446356faeed0e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1650,9 +1682,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 189442908853400977, guid: 56ee4be9cca54af45a3fbf7032c40ee1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c2950ecaacb2ed4c84a1f793d29cdae, type: 3}
     - target: {fileID: 189442908853400978, guid: 56ee4be9cca54af45a3fbf7032c40ee1, type: 3}
       propertyPath: m_Name
-      value: ball2
+      value: ball4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56ee4be9cca54af45a3fbf7032c40ee1, type: 3}

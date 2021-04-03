@@ -522,7 +522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7765607097862502627}
   m_Layer: 0
-  m_Name: 3_Stage 7
+  m_Name: 3_Stage 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1076,8 +1076,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6519880825954860178, guid: eeb6874e17399c642b807d48e9c2a065, type: 3}
       propertyPath: m_Name
-      value: ball5
+      value: ball2
       objectReference: {fileID: 0}
+    - target: {fileID: 6519880825954860179, guid: eeb6874e17399c642b807d48e9c2a065, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: df72b03d06b6b884e8c605c7884f0882, type: 3}
     - target: {fileID: 6519880825954860180, guid: eeb6874e17399c642b807d48e9c2a065, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1157,8 +1161,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6519880825954860178, guid: eeb6874e17399c642b807d48e9c2a065, type: 3}
       propertyPath: m_Name
-      value: ball5
+      value: ball2
       objectReference: {fileID: 0}
+    - target: {fileID: 6519880825954860179, guid: eeb6874e17399c642b807d48e9c2a065, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: df72b03d06b6b884e8c605c7884f0882, type: 3}
     - target: {fileID: 6519880825954860180, guid: eeb6874e17399c642b807d48e9c2a065, type: 3}
       propertyPath: m_RootOrder
       value: 5

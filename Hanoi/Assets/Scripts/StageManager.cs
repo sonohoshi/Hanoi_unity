@@ -27,12 +27,17 @@ public class StageManager : MonoBehaviour
         }
 
         if (stage != null) Destroy(stage);
+        
+        if (index != 0 && index % 3 == 0)
+        {
+            stages.Clear();
+        }
 
         if (stages.Count <= 0)
         {
             if (stages2.Count > 0)
             {
-                for (int i = 0; i < 3; i++)
+                for (int i = 0; i < stages2.Count; i++)
                 {
                     stages.Add(stages2[i]);
                 }
@@ -40,7 +45,7 @@ public class StageManager : MonoBehaviour
             }
             else if (stages3.Count > 0)
             {
-                for (int i = 0; i < 3; i++)
+                for (int i = 0; i < stages3.Count; i++)
                 {
                     stages.Add(stages3[i]);
                 }
