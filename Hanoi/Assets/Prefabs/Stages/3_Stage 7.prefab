@@ -338,7 +338,7 @@ MonoBehaviour:
   playeable: {fileID: 7765607097361603255}
   text: {fileID: 7765607097922431412}
   playerText: {fileID: 0}
-  canMoveCount: 2
+  canMoveCount: 10
 --- !u!1 &7765607097573185689
 GameObject:
   m_ObjectHideFlags: 0
